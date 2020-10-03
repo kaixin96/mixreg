@@ -1,0 +1,9 @@
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 0.1 --mix_mode mixreg --test_worker_interval 3 --run_id 111 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 0.1 --mix_mode mixreg --test_worker_interval 3 --run_id 112 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 0.1 --mix_mode mixreg --test_worker_interval 3 --run_id 113 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 0.5 --mix_mode mixreg --test_worker_interval 3 --run_id 114 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 0.5 --mix_mode mixreg --test_worker_interval 3 --run_id 115 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 0.5 --mix_mode mixreg --test_worker_interval 3 --run_id 116 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 1.0 --mix_mode mixreg --test_worker_interval 3 --run_id 117 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 1.0 --mix_mode mixreg --test_worker_interval 3 --run_id 118 --gpus_id 0,1,2
+mpiexec -np 3 python -m train_procgen.train --env_name fruitbot --num_levels 500 --mix_alpha 1.0 --mix_mode mixreg --test_worker_interval 3 --run_id 119 --gpus_id 0,1,2

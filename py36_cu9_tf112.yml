@@ -1,0 +1,16 @@
+name: py36_cu9_tf112
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - mpi4py=3.0.3
+  - pip
+  - pip:
+    - anyrl
+    - gym==0.15.4
+    - procgen==0.9.2
+    - tensorflow-gpu==1.12.0
+    - scikit-image==0.17.2
+    - pytest # for baselines
