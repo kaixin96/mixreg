@@ -95,6 +95,16 @@ Mixreg + L2 regularization
 mpiexec -np 3 python -m train_procgen.train --env_name starpilot --num_levels 500 --mix_mode mixreg --test_worker_interval 3 --gpus_id 0,1,2 --use_l2reg
 ```
 
+Mixreg + random crop
+```bash
+mpiexec -np 3 python -m train_procgen.train --env_name starpilot --num_levels 500 --mix_mode mixreg --test_worker_interval 3 --gpus_id 0,1,2 --data_aug crop
+```
+
+Mixreg + cutout-color
+```bash
+mpiexec -np 3 python -m train_procgen.train --env_name starpilot --num_levels 500 --mix_mode mixreg --test_worker_interval 3 --gpus_id 0,1,2 --data_aug cutout_color
+```
+
 ## Finetuning experiments
 
 Finetune baseline model with representation fixed
