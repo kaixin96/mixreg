@@ -20,6 +20,7 @@ pip install -e .
 Check out [experiments README](https://github.com/kaixin96/mixreg/blob/master/experiments/README.md) for running different experiments. You may also use the scripts in `experiments` folder to start training. All results are available at [Google Drive](https://drive.google.com/drive/folders/1wTURCswt6IfTDbEkBqMaIZhBlO7n8qDb?usp=sharing).
 
 ## Citation
+```
 @misc{wang2020improving,
       title={Improving Generalization in Reinforcement Learning with Mixture Regularization}, 
       author={Kaixin Wang and Bingyi Kang and Jie Shao and Jiashi Feng},
@@ -28,3 +29,4 @@ Check out [experiments README](https://github.com/kaixin96/mixreg/blob/master/ex
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
+```
